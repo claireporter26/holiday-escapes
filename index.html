@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fantastic Escapes Home</title>
+    <link href="./css/normalize.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link href="./css/styles.css" rel="stylesheet" type="text/css">
+    
+</head>
+<body>
+
+    <div class="top-navigation">
+        <div class="nav-container row">
+            <p class="brand">Fantastic Escapes</p>
+            <div class="nav-menu">
+                <ul class="row">
+                    <a class="nav-item" href="#"><li>Sign In</li></a>
+                    <a class="nav-item" href="#"><li>Help</li></a>
+                </ul>
+            </div>
+        </div> 
+    </div>
+
+    <div class="home-img-area">
+        <img class="home-img home-img--circle" src="./Images/beach 575x575px.jpg" alt="Beach">
+    </div>
+
+    <h3 class="intro-text">Check out our great deals by letting us know what you're looking for below!</h3>
+
+    <div class="search-form">
+        <form action="">
+            <input class="search-form-input search-form--fullwidth" type="text" name="country" aria-label="Country" placeholder="Country"><br>
+
+            <div class="row row--2">
+                <input class="search-form-input col" id="check-in-date" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" name="check-in" placeholder="Check In">
+
+                <input class="search-form-input col" id="check-out-date" name="check-out" placeholder="Check Out" type="text" onfocus="(this.type='date')" onblur="(this.type='text')">
+            </div>
+            
+           <div class="row row--2">
+                <input class="search-form-input col" type="number" name="no-adults" aria-label="Number of Adults" placeholder="No of Adults">
+
+                <input class="search-form-input col" type="number" name="no-children" aria-label="Number of Children" placeholder="No of Children">
+           </div>
+            <div class="submit-btn--area">
+            <input class="submit-btn"
+            type="submit" value="Submit">
+            </div>
+        </form>
+    </div>  
+
+
+
+
+
+
+</body>
+</html>

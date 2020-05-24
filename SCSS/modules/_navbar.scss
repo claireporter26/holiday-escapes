@@ -1,0 +1,48 @@
+.top-navigation {
+    background-color: rgba($mainBlue, .17);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: $darkBlueText;
+    font-weight: 600;
+    
+}
+
+.nav-container {
+    padding: 0 1em;
+    margin: 0;
+}
+
+.brand {
+    margin: 0;
+}
+
+.nav-menu {
+    margin: 0;
+}
+
+.nav-item {
+    text-decoration: none;
+    list-style-type: none;
+    margin: 0 .5em;
+    color: $darkBlueText;
+    padding: .5em;
+    cursor: pointer;
+
+    &:hover {
+        background-color: rgba($mainBlue, .9);
+        color: #fff;
+    }
+  
+}
+
+
+
+ul {
+    margin: 0;
+}
+
+
+
+
+
