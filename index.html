@@ -23,33 +23,36 @@
         </div> 
     </div>
 
-    <div class="home-img-area">
-        <img class="home-img home-img--circle" src="./Images/beach 575x575px.jpg" alt="Beach">
-    </div>
+    <div class="main-section">
+        <div class="home-img-area">
+            <img class="home-img home-img--circle" src="./Images/beach 575x575px.jpg" alt="Beach">
+        </div>
+        <div class="form-area">
+            <h3 class="intro-text">Check out our great deals by letting us know what you're looking for below!</h3>
 
-    <h3 class="intro-text">Check out our great deals by letting us know what you're looking for below!</h3>
+            <div class="search-form">
+                <form action="">
+                    <input class="search-form-input search-form--fullwidth" type="text" name="country" aria-label="Country" placeholder="Country"><br>
 
-    <div class="search-form">
-        <form action="">
-            <input class="search-form-input search-form--fullwidth" type="text" name="country" aria-label="Country" placeholder="Country"><br>
+                    <div class="row row--2">
+                        <input class="search-form-input col" id="check-in-date" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" name="check-in" placeholder="Check In">
 
-            <div class="row row--2">
-                <input class="search-form-input col" id="check-in-date" type="text" onfocus="(this.type='date')" onblur="(this.type='text')" name="check-in" placeholder="Check In">
+                        <input class="search-form-input col" id="check-out-date" name="check-out" placeholder="Check Out" type="text" onfocus="(this.type='date')" onblur="(this.type='text')">
+                    </div>
+                    
+                <div class="row row--2">
+                        <input class="search-form-input col" type="number" name="no-adults" aria-label="Number of Adults" placeholder="No of Adults">
 
-                <input class="search-form-input col" id="check-out-date" name="check-out" placeholder="Check Out" type="text" onfocus="(this.type='date')" onblur="(this.type='text')">
+                        <input class="search-form-input col" type="number" name="no-children" aria-label="Number of Children" placeholder="No of Children">
+                </div>
+                    <div class="submit-btn--area">
+                    <input class="submit-btn"
+                    type="submit" value="Submit">
+                    </div>
+                </form>
             </div>
-            
-           <div class="row row--2">
-                <input class="search-form-input col" type="number" name="no-adults" aria-label="Number of Adults" placeholder="No of Adults">
-
-                <input class="search-form-input col" type="number" name="no-children" aria-label="Number of Children" placeholder="No of Children">
-           </div>
-            <div class="submit-btn--area">
-            <input class="submit-btn"
-            type="submit" value="Submit">
-            </div>
-        </form>
-    </div>  
+        </div> 
+    </div> 
 
 
 

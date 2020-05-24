@@ -1,0 +1,10 @@
+
+.main-section {
+    @include atLarge {
+        display: flex;
+       
+    }
+}
+
+
+

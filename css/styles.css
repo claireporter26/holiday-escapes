@@ -1,21 +1,3 @@
-@define-mixin atSmall {
-  @media (min-width: 530px) {
-    @mixin-content;
-  }
-}
-
-@define-mixin atMedium {
-  @media (min-width: 800px) {
-    @mixin-content;
-  }
-}
-
-@define-mixin atLarge {
-  @media (min-width: 1010px) {
-    @mixin-content;
-  }
-}
-
 @define-mixin clearfix {
   ::after {
     content: "";
@@ -31,6 +13,10 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
+}
+
+img {
+  width: 100%;
 }
 
 .clearfix::after {
@@ -79,12 +65,26 @@ ul {
   margin: 0;
 }
 
+@media (min-width: 800px) {
+  .main-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
 .home-img {
   width: 200px;
   height: 200px;
   border-radius: 50%;
   margin: 15px auto;
   display: block;
+}
+
+@media (min-width: 800px) {
+  .home-img {
+    border-radius: 0;
+  }
 }
 
 .intro-text {
