@@ -6,7 +6,14 @@
     display: block;
 
     @include atMedium {
-        border-radius: 0;
+       
     }
+}
+
+.background-img {
+    opacity: .8;
+    height: 94vh;
+    margin: 0;
+    padding: 0;
 }
 
