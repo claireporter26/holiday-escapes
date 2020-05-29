@@ -1,5 +1,15 @@
 .form-area {
     min-width: 370px;
+    max-width: 400px;
+   
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 1em;
+    border-radius: 10px;
+
+    @include atMedium {
+       margin: 0 auto 0 .5em;
+    }
 }
 
 

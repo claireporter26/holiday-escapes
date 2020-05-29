@@ -1,9 +1,16 @@
 
 .main-section {
-    @include atLarge {
-        display: flex;
-       
+
+    
+    background: url(../Images/palm-trees-light.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+
+    @include atSmall {
+        padding: 2em;
     }
+  
 }
 
 

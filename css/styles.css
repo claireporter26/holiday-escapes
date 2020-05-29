@@ -67,11 +67,16 @@ ul {
   margin: 0;
 }
 
-@media (min-width: 800px) {
+.main-section {
+  background: url(../Images/palm-trees-light.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+
+@media (min-width: 500px) {
   .main-section {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    padding: 2em;
   }
 }
 
@@ -102,6 +107,17 @@ ul {
 
 .form-area {
   min-width: 370px;
+  max-width: 400px;
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+@media (min-width: 800px) {
+  .form-area {
+    margin: 0 auto 0 .5em;
+  }
 }
 
 form {
