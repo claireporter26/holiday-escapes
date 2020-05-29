@@ -85,9 +85,10 @@ ul {
 
 .background-img {
   opacity: .8;
-  height: 94vh;
   margin: 0;
   padding: 0;
+  width: 100%;
+  height: auto;
 }
 
 .intro-text {
@@ -97,6 +98,10 @@ ul {
   display: block;
   margin: 15px auto;
   color: #083558;
+}
+
+.form-area {
+  min-width: 370px;
 }
 
 form {
