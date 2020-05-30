@@ -5,7 +5,7 @@
 }
 
 @mixin atSmallLandscape {
-    @media (max-height: 525px) {
+    @media (max-height: 525px) and (orientation: landscape) {
         @content;
     }
 }

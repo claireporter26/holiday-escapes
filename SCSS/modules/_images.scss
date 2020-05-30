@@ -4,6 +4,11 @@
     border-radius: 50%;
     margin: 15px auto;
     display: block;
+
+    @include atSmallLandscape {
+        width: 150px;
+        height: 150px;  
+    }
 }
 
 .background-img {

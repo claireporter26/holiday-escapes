@@ -10,14 +10,14 @@
 
     @include atSmall {
         border-radius: 10px;
-        
         height: auto;
     }
 
     @include atSmallLandscape {
         display: flex;
+        justify-content: space-between;
         max-width: auto;
-        min-width: 50%;
+        min-width: 75%;
         padding: 1em 2em;
         
     }
@@ -32,11 +32,27 @@
     margin-top: 1.5em;
 
     @include atSmallLandscape {
-        font-size: 1em;
+        font-size: .9rem;
+        width: 150px;
     }
 }
 form {
     width: 100%;
+}
+
+.search-area--primary {
+    @include atSmallLandscape {
+        width: 40%;
+    
+    }
+}
+
+.search-area--secondary,
+form {
+    @include atSmallLandscape {
+        width: 100%;
+        
+    }
 }
 
 .search-form {
@@ -44,6 +60,12 @@ form {
     height: 75%;
     max-width: 600px;
     margin: auto;
+
+    @include atSmallLandscape {
+        width: 55%;
+        height: 100%;
+        
+    }
   
 
     &-input {
