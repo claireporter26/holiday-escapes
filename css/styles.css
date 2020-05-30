@@ -70,7 +70,7 @@ img {
   color: #fff;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 850px) {
   .nav-item {
     font-size: 1rem;
   }
@@ -90,8 +90,17 @@ ul {
   background: url(../Images/palm-trees-light.jpg);
   background-position: bottom;
   background-repeat: no-repeat;
+  background-color: #7ea9cc;
   margin: 0 auto;
   height: 100%;
+}
+
+@media (max-height: 525px) {
+  .main-section {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 .home-img {
@@ -120,28 +129,47 @@ ul {
 }
 
 .form-area {
-  min-width: 370px;
+  min-width: 350px;
   max-width: 400px;
+  height: 100%;
   background-color: #fff;
   margin: 0 auto;
-  padding: .6em;
+  padding: 1.3em 0;
   font-size: 0.9 0.5rem;
 }
 
 @media (min-width: 400px) {
   .form-area {
     border-radius: 10px;
+    height: auto;
   }
 }
 
-@media (min-width: 800px) {
+@media (max-height: 525px) {
   .form-area {
-    margin: 0 auto 0 .5em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: auto;
+    min-width: 50%;
+    padding: 1em 2em;
+  }
+}
+
+@media (min-width: 850px) {
+  .form-area {
+    margin: 0 auto 0 3.5em;
   }
 }
 
 .intro-text {
   margin-top: 1.5em;
+}
+
+@media (max-height: 525px) {
+  .intro-text {
+    font-size: 1em;
+  }
 }
 
 form {
@@ -164,6 +192,7 @@ form {
   cursor: pointer;
   font-weight: 400;
   font-size: .8rem;
+  margin: .6em 0;
 }
 
 .search-form ::-webkit-input-placeholder {
@@ -184,7 +213,6 @@ form {
 
 .search-form--fullwidth {
   width: 100%;
-  margin: .6em 0 0 0;
 }
 
 .search-form--halfwidth {

@@ -4,8 +4,14 @@
     } 
 }
 
+@mixin atSmallLandscape {
+    @media (max-height: 525px) {
+        @content;
+    }
+}
+
 @mixin atMedium {
-    @media (min-width: 800px) {
+    @media (min-width: 850px) {
         @content;
     } 
 }

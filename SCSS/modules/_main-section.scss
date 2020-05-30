@@ -6,6 +6,7 @@
     background: url(../Images/palm-trees-light.jpg);
     background-position: bottom;
     background-repeat: no-repeat;
+    background-color: rgb(126, 169, 204);
     margin: 0 auto;
     height: 100%;
     // padding: 2.5em 1.5em 2em 1.5em;
@@ -15,6 +16,10 @@
     //     // padding: 2em;
     //     padding: 2.5em 2em 2em 2em;
     // }
+
+    @include atSmallLandscape {
+        justify-content: center;
+    }
   
 }
 
